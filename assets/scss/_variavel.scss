@@ -1,0 +1,41 @@
+$Button-color: hsl(180, 66%, 49%);
+$Fonts-color: hsl(257, 27%, 26%);
+$Gray: hsl(0, 0%, 75%);
+$GrayishViolet: hsl(257, 7%, 63%);
+$Very-DarkBlue: hsl(255, 11%, 22%);
+$Very-Dark-Violet: hsl(260, 8%, 14%);
+$color: #000000;
+
+
+@mixin flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@mixin flex-left-coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@mixin flex-coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin flex-rigth {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}

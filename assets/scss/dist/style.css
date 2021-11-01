@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+header {
+  padding: 60px 150px 0px 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 670px;
+}
+header .nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .nav .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 50%;
+  gap: 3em;
+}
+header .nav .logo nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  gap: 2em;
+}
+header .nav .logo nav ul a {
+  text-decoration: none;
+  color: #9e9aa7;
+  font-size: 1em;
+  font-weight: 600;
+}
+header .nav .logo nav ul a:hover {
+  transition: all 0.3s;
+  color: #3b3054;
+}
+header .nav .btn {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.5em;
+}
+header .nav .btn button {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1em;
+  border: none;
+}
+header .nav .btn #login {
+  color: #9e9aa7;
+  background-color: transparent;
+}
+header .nav .btn #singup {
+  background-color: #2acfcf;
+  min-width: 35%;
+  border-radius: 30px;
+  color: white;
+  height: 40px;
+}
+header .nav .btn #singup:hover {
+  transition: all 0.3s;
+  background-color: #20b6b6;
+}
+header .content-shorter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0px;
+  gap: 3em;
+  min-height: 400px;
+}
+header .content-shorter .content-left {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1em;
+}
+header .content-shorter .content-left h1 {
+  min-width: 100%;
+  color: #232127;
+  font-size: 3.5em;
+  line-height: 1.3em;
+}
+header .content-shorter .content-left p {
+  max-width: 100%;
+  width: 490px;
+  font-size: 1em;
+  font-weight: 600;
+  color: #9e9aa7;
+}
+header .content-shorter .content-left button {
+  width: 35%;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #2acfcf;
+  border: none;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+header .content-shorter .content-left button:hover {
+  transition: all 0.3s;
+  background-color: #20b6b6;
+}
+header .content-shorter .content-rigth {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+header .content-shorter .content-rigth img {
+  min-width: 100%;
+}
+header .area-url {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  min-width: 90%;
+  background-color: #4B3F6B;
+  background-repeat: none;
+  min-height: 130px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+}
+header .area-url input {
+  min-width: 60%;
+  height: 50px;
+  padding-left: 50px;
+  border-radius: 10px;
+  border: none;
+  color: #9e9aa7;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+header .area-url button {
+  min-width: 20%;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #2acfcf;
+  border: none;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+/*header*/
+.advanced {
+  width: 100%;
+  background-color: #f4f4f4;
+  padding: 180px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
